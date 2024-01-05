@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1 style="color:green;padding:13px;">
+                Centered Tabs / Pills</h1>
+        </center>        
+
+<div class="container-fluid">
+    <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+            <a class="nav-link active" href="#subscribed" data-toggle="tab">subscribed</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#eventPassed" data-toggle="tab">eventPassed</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#eventNow" data-toggle="tab">eventNow</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#eventIncoming" data-toggle="tab">eventIncoming</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#eventCreation" data-toggle="tab">eventCreation</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#eventOwn" data-toggle="tab">eventOwn</a>
+        </li>
+    </ul>
+</div>
+
+<br>
+
+<style>
+.tab-content {margin-left:14px;}
+</style>
+
+<!-- Pills content -->
+<div class="tab-content" id="ex2-content">
+  <div
+    class="tab-pane fade show active"
+    id="subscribed"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-1"
+  >
+    Tab 1 content
+  </div>
+  <div
+    class="tab-pane fade"
+    id="eventPassed"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-2"
+  >
+    Tab 2 content
+  </div>
+  <div
+    class="tab-pane fade"
+    id="eventNow"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-3"
+  >
+    Tab 3 content
+  </div>
+  
+  <div
+    class="tab-pane fade"
+    id="eventIncoming"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-3"
+  >
+    Tab 4 content
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="eventCreation"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-3"
+  >
+    Tab 5 content
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="eventOwn"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-3"
+  >
+    Tab 6 content
+  </div>
+
+  
+</div>
+<!-- Pills content -->
+
+
+
+    
+    <script>
+        $(document).ready(function () {
+            $('nav a').click(function () {
+                $('nav a').removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger point Menu</title>
+    <link rel="stylesheet" href="burger.css">
+    <link rel="stylesheet" href="burresponsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- bootstrap-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- carousel-start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- carousel-end -->
+
+</head>
+<body>
+  <a href="#">
+  <div class="last-arrow">
+    <span>&#8673;</span>
+   </div>
+  </a>
+    <div class="delivery d-none d-md-block">
+        <div class="container-fluid">
+    <div class="row">
+        <div class="col-4 free-delivery">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Delivery Free 24*7</span>
+        </div>
+        <div class="col-4 free-delivery">
+            <span>Email: arjunak0888@gmail.com </span>
+    <span>Contact: 9718104182</span>
+        </div>
+        <div class="col-4 free-delivery">
+            <div class="icons-log">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            
+        </div>
+    </div>
+        </div>
+    </div>
+        <!-- Menu-start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid menu-nav">
+              <a class="navbar-brand point" href="#"><i class="fa-solid fa-burger" style="color: rgb(184, 105, 2);"></i><span> Burger Point</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="our-story.html">Our Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                <div class=" searched d-sm-block d-none" >
+                  <input type="search" placeholder="Search"><button type="submit">Search</button>
+                  </div>
+               
+              </div>
+            </div>
+          </nav>
+          
+          <div class=" second-search d-sm-none d-block" >
+          <input type="search" placeholder="Search"><button type="submit">Search</button>
+          </div>
+
+          <div class="menu-item">
+            <ul>
+                <li><a href="index.html">Home</a>/</li>
+                <li><a href="menu.html" style="color: black;">Menu</a></li>
+            </ul>
+          </div>
+        <div class="popular">
+            <h1>POPULAR DISHES</h1>
+        </div>
+        <div class="container define">
+            <div class="row">
+                <div class="col-md-12 defines">
+                    <a href=""><button type="button"><i class="fa-solid fa-burger"></i>BURGER</button></a>
+                    <a href=""><button type="button"><i class="fa-solid fa-pizza-slice"></i>PIZZA</button></a>
+                    <a href=""><button type="button"><i class="fa-solid fa-bowl-food"></i>SALATS</button></a>
+                    <a href=""><button type=""><i class="fa-solid fa-glass-water"></i>FRENCH FRIES</button></a>
+                    <a href=""><button type="button"><i class="fa-solid fa-wine-bottle"></i>COLD DRINKS</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="container enjoy-pary-burger" id="burger01">
+            <div class="row">
+              <div class="col-sm-12  col-4 enjoying">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="first-burger">
+          <img src="imges/scroll.gif" alt="">
+                    </div>
+                    <div class="first-into-burger">
+          <h3>Chicken Cheese Burger</h3>
+          <h5 class="price">Rs.₹65.00</h5>
+          <div class="quantity-counter">Quantity
+            <button id="counter-increment" class="increment">+</button>
+            <input id="counter-value" class="value" type="number" value="0">
+            <button id="counter-decrement" class="decrement">-</button>
+          </div>
+          <a href="#"><button type="submit" class="booking mt-3">Order Now</button></a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="first-burger">
+                    <img src="imges/burger-1.gif" alt="">
+                              </div>
+                  <div class="first-into-burger">
+                  <h3>Double Chicken Burger</h3>
+                  <h5 class="price">Rs.₹99.00</h5>
+                  <div class="quantity-counter">Quantity
+                  <button id="counter-increment" class="increment">+</button>
+              <input id="counter-value" class="value" type="number" value="0">
+                <button id="counter-decrement" class="decrement">-</button>
+                    </div>
+                <a href="#"><button type="submit" class="booking mt-3">Order Now</button></a>
+                        </div>
+                  </div>
+                  <div class="item">
+                    <div class="first-burger">
+                    <img src="imges/burger-2.gif" alt="">
+                              </div>
+                  <div class="first-into-burger">
+                  <h3>Cheese Pizza Onion</h3>
+                  <h5 class="price">Rs.₹120.00</h5>
+                  <div class="quantity-counter">Quantity
+                  <button id="counter-increment" class="increment">+</button>
+              <input id="counter-value" class="value" type="number" value="0">
+                <button id="counter-decrement" class="decrement">-</button>
+                    </div>
+                <a href="#"><button type="submit" class="booking mt-3">Order Now</button></a>
+                        </div></div>
+                 
+                        <div class="item">
+                          <div class="first-burger">
+                          <img src="imges/burger-3.gif" alt="">
+                                    </div>
+                        <div class="first-into-burger">
+                        <h3>Single Cheese Burger</h3>
+                        <h5 class="price">Rs.₹49.00</h5>
+                        <div class="quantity-counter">Quantity
+                        <button id="counter-increment" class="increment">+</button>
+                    <input id="counter-value" class="value" type="number" value="0">
+                      <button id="counter-decrement" class="decrement">-</button>
+                          </div>
+                      <a href="#"><button type="submit" class="booking mt-3">Order Now</button></a>
+                              </div></div>
+          
+              <div class="item">
+                <div class="first-burger">
+                <img src="imges/delicious-crispy-chicken-burger-ai_742252-5712.avif"  alt="">
+                    </div>
+              <div class="first-into-burger">
+                <h3>Tikki Burger</h3>
+                <h5 class="price">Rs.₹80.00</h5>
+                  <div class="quantity-counter">Quantity
+                  <button id="counter-increment" class="increment">+</button>
+                  <input id="counter-value" class="value" type="number" value="0">
+                  <button id="counter-decrement" class="decrement">-</button>
+                         </div>
+                <a href="#"><button type="submit" class="booking mt-3">Order Now</button></a>
+                                    </div></div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-img">
+<button type="submit">Order Now</button>
+          </div>
+<div class="menu-slide">
+<marquee class="blink" behavior="sliding" direction="right" scrollamount="5" >
+  The BURGER POINT very expensive restaurant and Online delivery under 5Km in area 5% Discount Rs.399/- more food.  
+</marquee>
+</div>
+<h1 class="price-item">Menu Item Price</h1>
+
+<div class="item-menu">
+<img src="imges/menu-item.jpg" alt="">
+</div>
+
+<div class="container video-men">
+<div class="row">
+  <div class="col-md-6 video-submenu">
+<video class="food-video" controls autoplay>
+  <source src="imges/video-menu.mp4" type="video/mp4">
+</video>
+  </div>
+  <div class="col-md-6 video-submenu">
+    <p>A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast-food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments.</p>
+  </div>
+</div>
+</div>
+
+<div class="container map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13999.87870329904!2d77.32095495000002!3d28.6905537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1704206014695!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<section class="data-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 detailss">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="">Our Story</a></li>
+  <li><a href="">Contact Us</a></li>
+</ul>
+      </div>
+      <div class="col-md-4 detailss">
+        <p>Copyright © 2024, Presented by Arjun</p>
+      </div>
+      <div class="col-md-4 detailss">
+        
+<ul>
+  <span style="color: black; font-weight: bold; margin-top: 10px;">Follow me:</span>
+  <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+  <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+  <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+</ul>
+      </div>
+    </div>
+  </div>
+</section>
+          <script>
+            $('.owl-carousel').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              autoplay:true,
+              autoplayTimeout:4000,
+              autoplayHoverPause:true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:3
+                  },
+                  1000:{
+                      items:3
+                  }
+              }
+          })
+          </script>
+<script>
+    var counterValue = document.querySelector("#counter-value");
+  var counterIncrement = document.querySelector("#counter-increment");
+  var counterDecrement = document.querySelector("#counter-decrement");
+  var count = 0;
+  
+  this.counterIncrement.addEventListener('click', () => {
+    this.count++
+    this.counterValue.setAttribute("value", count);
+  });
+  
+  this.counterDecrement.addEventListener('click', () => {
+    this.count--
+    this.counterValue.setAttribute("value", count);
+  });
+  </script>
+
+  
+</body>
+</html>
